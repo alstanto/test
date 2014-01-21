@@ -7,16 +7,35 @@ Class DataTemplate:
     to a specific dataset or set of datasets
     """
 
-    template_id = ''
+    id = ''
 
-    template_name = ''
+    title = ''
 
     created_by = ''
 
-    last_modified_time = ''
-
     last_modified_by = ''
 
-    template_children = []
+    last_modified_time = ''
+
+    """list of objects"""
+    fields = []
+
+    time_effective_start = ''
+
+    time_eff_end = ''
+
+    def set_id():
+        """
+        a unique identifier. will be _id in mongo. Could use BSON object id
+
+        get from post
+        get from cookie
+        get from db
+
+        """
 
 
+    def set_title():
+        """
+        set by user
+        """
