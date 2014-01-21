@@ -6,4 +6,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return 'Welcome to the data catalog'
+    return 'Welcome to the data catalog again'
