@@ -27,15 +27,20 @@ Class DataTemplate:
     def set_id():
         """
         a unique identifier. will be _id in mongo. Could use BSON object id
-
         get from post
         get from cookie
         get from db
-
         """
+
 
 
     def set_title():
         """
         set by user
         """
+        name = 'title'
+        type = 'text'
+        default = ''
+        help_text = 'Give this template a name.'
+
+        return ''
